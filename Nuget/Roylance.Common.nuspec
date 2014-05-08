@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Roylance.Common</id>
+    <version>1.0.0</version>
+    <authors>mike.roylance</authors>
+    <owners>mike.roylance</owners>
+    <licenseUrl>https://github.com/roylanceMichael/ObjectToSqlMapper/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/roylanceMichael/ObjectToSqlMapper</projectUrl>
+    <iconUrl>https://raw.github.com/roylanceMichael/ObjectToSqlMapper/master/SQL.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple library for mapping objects to sql statements.</description>
+    <releaseNotes>Including Oracle select queries as well.</releaseNotes>
+    <copyright>Copyright 2014 Mike Roylance</copyright>
+    <tags></tags>
+  </metadata>
+</package>
