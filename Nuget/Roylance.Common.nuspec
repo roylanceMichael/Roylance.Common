@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Roylance.Common</id>
-    <version>1.0.1</version>
+    <version>1.0.7</version>
     <authors>mike.roylance</authors>
     <owners>mike.roylance</owners>
     <licenseUrl>https://raw.githubusercontent.com/roylanceMichael/Roylance.Common/master/Roylance.Common/License.txt</licenseUrl>
@@ -10,7 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/roylanceMichael/Roylance.Common/master/Futsu.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common C# interfaces and patterns I use.</description>
-    <releaseNotes>Including some merge operations and other interfaces.</releaseNotes>
+    <releaseNotes>Adding iOS and Android back in.</releaseNotes>
     <copyright>Copyright 2014 Mike Roylance</copyright>
     <tags></tags>
     <dependencies>
