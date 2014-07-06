@@ -2,16 +2,19 @@
 <package >
   <metadata>
     <id>Roylance.Common</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>mike.roylance</authors>
     <owners>mike.roylance</owners>
-    <licenseUrl>https://github.com/roylanceMichael/ObjectToSqlMapper/blob/master/license.txt</licenseUrl>
-    <projectUrl>https://github.com/roylanceMichael/ObjectToSqlMapper</projectUrl>
-    <iconUrl>https://raw.github.com/roylanceMichael/ObjectToSqlMapper/master/SQL.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/roylanceMichael/Roylance.Common/master/Roylance.Common/License.txt</licenseUrl>
+    <projectUrl>https://github.com/roylanceMichael/Roylance.Common</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/roylanceMichael/Roylance.Common/master/Futsu.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A simple library for mapping objects to sql statements.</description>
-    <releaseNotes>Including Oracle select queries as well.</releaseNotes>
+    <description>Common C# interfaces and patterns I use.</description>
+    <releaseNotes>Including some merge operations and other interfaces.</releaseNotes>
     <copyright>Copyright 2014 Mike Roylance</copyright>
     <tags></tags>
+    <dependencies>
+      <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+    </dependencies>
   </metadata>
 </package>
