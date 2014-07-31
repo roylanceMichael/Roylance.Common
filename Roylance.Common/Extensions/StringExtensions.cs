@@ -1,14 +1,15 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using System.IO;
 
 namespace Roylance.Common
 {
 	public static class StringExtensions
 	{
-		public static string ReadResource(this string resourceLocation)
+		public static string ReadResource(this string resourceLocation, Assembly assembly)
 		{
-			var assembly = Assembly.GetExecutingAssembly();
+			resourceLocation.CheckIfNull("resourceLocation");
+			assembly.CheckIfNull("assembly");
+
 			using (var d1Stream = assembly.GetManifestResourceStream(resourceLocation))
 			{
 				if (d1Stream == null)
