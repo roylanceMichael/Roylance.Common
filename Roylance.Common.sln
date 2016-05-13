@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roylance.Common", "Roylance.Common\Roylance.Common.csproj", "{D07CD2EB-7537-489C-A3FF-F7E68C3186FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1131E319-881E-491A-A9C4-05FDB5380F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D07CD2EB-7537-489C-A3FF-F7E68C3186FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07CD2EB-7537-489C-A3FF-F7E68C3186FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07CD2EB-7537-489C-A3FF-F7E68C3186FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1131E319-881E-491A-A9C4-05FDB5380F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1131E319-881E-491A-A9C4-05FDB5380F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1131E319-881E-491A-A9C4-05FDB5380F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1131E319-881E-491A-A9C4-05FDB5380F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

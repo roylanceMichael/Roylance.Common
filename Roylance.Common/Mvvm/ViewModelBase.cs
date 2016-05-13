@@ -24,14 +24,12 @@ namespace Roylance.Common
 		//	http://stackoverflow.com/questions/671968/retrieving-property-name-from-lambda-expression - thank you!
 		public static string GetName(Expression<Func<object>> exp)
 		{
-			MemberExpression body = exp.Body as MemberExpression;
-
+			var body = exp.Body as MemberExpression;
 			if (body == null)
 			{
-				UnaryExpression ubody = (UnaryExpression)exp.Body;
+				var ubody = (UnaryExpression)exp.Body;
 				body = ubody.Operand as MemberExpression;
 			}
-
 			return body.Member.Name;
 		}
 	}

@@ -11,8 +11,9 @@ namespace Roylance.Common
 			Dictionary<TKey, TValue> toDictionary,
 			IMergeOperations<TKey> mergeOperations)
 		{
-			fromDictionary.CheckIfNull("fromDictionary");
-			toDictionary.CheckIfNull("toDictionary");
+			fromDictionary.CheckIfNull(nameof(fromDictionary));
+			toDictionary.CheckIfNull(nameof(toDictionary));
+			mergeOperations.CheckIfNull(nameof(mergeOperations));
 
 			foreach (var fromKey in fromDictionary.Keys)
 			{
@@ -34,9 +35,7 @@ namespace Roylance.Common
 
 		protected Task DefaultTask()
 		{
-			return Task.Factory.StartNew(() =>
-				{
-				});
+			return Task.Factory.StartNew(() => {});
 		}
 
 		protected static void UpdateNewIds<T>(IEnumerable<T> entities) where T : class, IKeyedEntity
