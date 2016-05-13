@@ -1,10 +1,19 @@
-﻿<Properties>
+﻿<Properties StartupItem="Tests/Tests.csproj">
   <MonoDevelop.Ide.Workbench ActiveDocument="Roylance.Common/Extensions/ObjectExtensions.cs">
     <Files>
-      <File FileName="Roylance.Common/Extensions/ObjectExtensions.cs" Line="16" Column="68" />
+      <File FileName="Roylance.Common/Extensions/ObjectExtensions.cs" Line="28" Column="20" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Roylance.Common" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
