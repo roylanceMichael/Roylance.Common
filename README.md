@@ -1,4 +1,4 @@
 Roylance.Common
 ===============
 
-Common C# interfaces and patterns I use
+Common C# and Java/Kotlin interfaces and patterns I use
