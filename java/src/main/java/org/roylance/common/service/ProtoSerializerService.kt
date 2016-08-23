@@ -1,6 +1,6 @@
 package org.roylance.common.service
 
-import com.google.protobuf.GeneratedMessage
+import com.google.protobuf.GeneratedMessageV3
 import com.google.protobuf.Message
 
 class ProtoSerializerService(
@@ -10,7 +10,7 @@ class ProtoSerializerService(
         return this.base64Service.serialize(message.toByteArray())
     }
 
-    override fun <T : GeneratedMessage> deserializeFromBase64(base64String: String, message: T): T {
+    override fun <T : GeneratedMessageV3> deserializeFromBase64(base64String: String, message: T): T {
         val bytes = this.base64Service.deserialize(base64String)
         return message.parserForType.parseFrom(bytes) as T
     }

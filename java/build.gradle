@@ -12,7 +12,7 @@ buildscript {
 }
 
 group 'org.roylance'
-version '0.3-SNAPSHOT'
+version '0.4-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'kotlin'
@@ -39,8 +39,8 @@ artifactory {
     publish {
         repository {
             repoKey = 'libs-snapshot-local'
-            username = ''
-            password = ''
+            username = System.getenv('ARTIFACTORY_USER')
+            password = System.getenv('ARTIFACTORY_PASSWORD')
         }
 
         defaults {
@@ -61,6 +61,6 @@ artifactory {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 
-    compile 'com.google.protobuf:protobuf-java:3.0.0-beta-3'
+    compile 'com.google.protobuf:protobuf-java:3.0.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
