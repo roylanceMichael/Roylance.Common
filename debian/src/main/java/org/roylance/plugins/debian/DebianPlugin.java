@@ -39,7 +39,7 @@ public class DebianPlugin extends DefaultTask {
 
         runBuilder.build(projectName, CommonStringsHelper.INSTANCE.buildProjectRunScriptLocation(projectName));
         buildDebianStructure();
-        runBuilder.build(projectName, CommonStringsHelper.INSTANCE.buildSystemRunScriptLocation());
+        runBuilder.build(projectName, CommonStringsHelper.INSTANCE.buildSystemRunScriptLocation(projectName));
         debianPackageBuilder.build();
 
         new CreateInstallPackageBuilder(serverVersion,
