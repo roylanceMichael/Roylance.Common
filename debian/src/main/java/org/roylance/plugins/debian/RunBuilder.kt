@@ -5,6 +5,7 @@ import java.io.File
 class RunBuilder {
     fun build(projectName: String, fileLocation: String) {
         val template = """#!/usr/bin/env bash
+pushd /opt/$projectName
 nohup /opt/$projectName/bin/$projectName "$@" > latest.out 2>&1&
 """
 

@@ -8,10 +8,10 @@ object CommonStringsHelper {
     const val SBinPath = "${DebianBuildBuild}usr/sbin/"
 
     const val CreateAndInstallPackageName = "create_install_package.sh"
-    private const val RunName = "run.sh"
+    private const val RunName = "run"
 
     fun buildProjectRunScriptLocation(projectName: String): String {
-        return buildInstallPath(projectName, "${projectName}_$RunName")
+        return buildInstallPath(projectName, "${projectName}_$RunName.sh")
     }
 
     fun buildSystemRunScriptLocation(projectName: String): String {
