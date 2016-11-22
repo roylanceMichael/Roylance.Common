@@ -1,6 +1,6 @@
 {
   "name": "roylance.common",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "common patterns and interfaces I use for typescript",
   "author": "roylance.michael@gmail.com",
   "license": "MIT"
