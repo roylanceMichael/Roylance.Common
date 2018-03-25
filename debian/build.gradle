@@ -1,8 +1,8 @@
 group 'org.roylance.plugins'
-version '0.25'
+version '0.26'
 
 buildscript {
-    ext.kotlin_version = '1.2.10'
+    ext.kotlin_version = '1.2.31'
 
     repositories {
         jcenter()
